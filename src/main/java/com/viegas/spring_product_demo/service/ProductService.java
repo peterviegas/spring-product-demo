@@ -45,9 +45,18 @@ public class ProductService {
     }
 
     public void delete (Long id){
+        System.out.println("Chegou no delete ..................................................");
+        System.out.println("Chegou no delete ..................................................");
+        System.out.println("Chegou no delete ..................................................");
+        System.out.println("Chegou no delete ..................................................");
+        System.out.println("Chegou no delete ..................................................");
         if(id == null || !productRepository.existsById(id)){
+            System.out.println("Chegou no if ..................................................");
+
             throw new RuntimeException("Product not found for delete");
         }
+        System.out.println("deveria ter deletado ..................................................");
+
         productRepository.deleteById(id);
     }
 }
