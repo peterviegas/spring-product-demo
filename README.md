@@ -114,7 +114,13 @@ spring.jpa.properties.hibernate.format_sql=true
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 ```
-
+📌 Acessar o console do H2:
+Depois de rodar a aplicação, vá para:
+```
+http://localhost:8080/h2-console
+```
+<img width="552" height="422" alt="image" src="https://github.com/user-attachments/assets/a5b54bb5-bdae-4f6f-90f0-3f2905e9549d" />
+---
 
 
 ## ✅ Unit Tests
