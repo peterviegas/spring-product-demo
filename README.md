@@ -115,7 +115,7 @@ spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 ```
 📌 Acessar o console do H2:
-Depois de rodar a aplicação, vá para:
+After execute the app, go to:
 ```
 http://localhost:8080/h2-console
 ```
