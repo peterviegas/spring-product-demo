@@ -7,7 +7,7 @@ A simple RESTful API for product management, built with Spring Boot and Java 17.
 ## 🚀 Technologies Used
 
 - Java 17
-- Spring Boot 3.5.3
+- Spring Boot 3.4.7
 - Spring Web
 - Spring Data JPA
 - H2 In-Memory Database
@@ -53,7 +53,8 @@ A simple RESTful API for product management, built with Spring Boot and Java 17.
 ```
 
 ✅ 3. Created Project using Spring Initializr:
-<img width="1619" height="805" alt="image" src="https://github.com/user-attachments/assets/caaf6b31-7af5-488e-a34a-1ca0ca85050c" />
+<img width="1667" height="867" alt="image" src="https://github.com/user-attachments/assets/baa7c6b5-10e1-49dc-a8fb-bfba2deb2ed0" />
+
 
 ✅ 4. Estruct of Lombock
 
@@ -80,6 +81,41 @@ BigDecimal: usado para representar o preço com precisão decimal, ideal para va
 | DELETE | /api/products/{id} | Delete product by ID      |
 
 ---
+## ✅ Swagger
+
+Need put in POM the dependency
+
+```
+<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+```
+<img width="1833" height="957" alt="image" src="https://github.com/user-attachments/assets/b6225d7e-d204-422c-a15c-4539dd75444e" />
+
+---
+## ✅ Basic Sample for H2 and JPA
+
+```
+# ========== H2 CONFIG ==========
+spring.datasource.url=jdbc:h2:mem:productdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+# ========== JPA ==========
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# ========== H2 Console (opcional) ==========
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+```
+
+
 
 ## ✅ Unit Tests
 
