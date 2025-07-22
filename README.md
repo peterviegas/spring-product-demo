@@ -127,10 +127,12 @@ http://localhost:8080/h2-console
 
 Above the error is not frindely
 
+<img width="1345" height="842" alt="image" src="https://github.com/user-attachments/assets/f0cd1d96-816b-4d90-820f-d10b779c6fac" />
+
 We use now GlobalExceptionHandler
 
+<img width="1767" height="892" alt="image" src="https://github.com/user-attachments/assets/bb10822a-15c7-4e4a-bb34-a0c37e88c1a7" />
 
-<img width="1345" height="842" alt="image" src="https://github.com/user-attachments/assets/f0cd1d96-816b-4d90-820f-d10b779c6fac" />
 
 
 ## ✅ Unit Tests
