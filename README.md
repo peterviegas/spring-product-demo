@@ -7,7 +7,7 @@ A simple RESTful API for product management, built with Spring Boot and Java 17.
 ## 🚀 Technologies Used
 
 - Java 17
-- Spring Boot 3.4.7
+- Spring Boot 3.4.7 -> Changed for the version 3.2.5 (Problema of another version with @ControllerAdvice used in public class GlobalExceptionHandler )
 - Spring Web
 - Spring Data JPA
 - H2 In-Memory Database
@@ -92,7 +92,8 @@ Need put in POM the dependency
 			<version>2.2.0</version>
 		</dependency>
 ```
-<img width="1833" height="957" alt="image" src="https://github.com/user-attachments/assets/b6225d7e-d204-422c-a15c-4539dd75444e" />
+
+<img width="1843" height="917" alt="image" src="https://github.com/user-attachments/assets/c1eac53c-5ca6-4970-9b57-8e49d39ebea6" />
 
 ---
 ## ✅ Basic Sample for H2 and JPA
@@ -119,8 +120,17 @@ After execute the app, go to:
 ```
 http://localhost:8080/h2-console
 ```
-<img width="552" height="422" alt="image" src="https://github.com/user-attachments/assets/a5b54bb5-bdae-4f6f-90f0-3f2905e9549d" />
 ---
+##  ✅ Tests used Swagger
+
+<img width="552" height="422" alt="image" src="https://github.com/user-attachments/assets/a5b54bb5-bdae-4f6f-90f0-3f2905e9549d" />
+
+Above the error is not frindely
+
+We use now GlobalExceptionHandler
+
+
+<img width="1345" height="842" alt="image" src="https://github.com/user-attachments/assets/f0cd1d96-816b-4d90-820f-d10b779c6fac" />
 
 
 ## ✅ Unit Tests
