@@ -162,10 +162,10 @@ Swagger is powered by Springdoc OpenAPI 2.x.
 ⚙️ How to Run
 Clone this repository:
 
-´´´
+```
 git clone https://github.com/your-username/product-api.git
 cd product-api
-´´´
+```
 
 Start the application:
 ```
