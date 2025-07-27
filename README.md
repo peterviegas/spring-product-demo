@@ -154,7 +154,7 @@ To run tests:
 
 After running the app, access the API documentation at:
 ```
-http://localhost:8081/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html
 ```
 Swagger is powered by Springdoc OpenAPI 2.x.
 
