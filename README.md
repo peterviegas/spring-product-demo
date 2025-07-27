@@ -141,7 +141,7 @@ This project includes controller-level tests using:
 
 - `@WebMvcTest`
 - `MockMvc`
-- `@MockitoBean` (introduced in Spring Boot 3.4+)
+- Note Retired `@MockitoBean` (introduced in Spring Boot 3.4+) because changed the version for 3.2.5
 
 To run tests:
 
