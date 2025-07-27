@@ -7,7 +7,7 @@ A simple RESTful API for product management, built with Spring Boot and Java 17.
 ## 🚀 Technologies Used
 
 - Java 17
-- Spring Boot 3.4.7 -> Changed for the version 3.2.5 (Problema of another version with @ControllerAdvice used in public class GlobalExceptionHandler )
+- initialized with Spring Boot 3.4.7 -> Changed for the version 3.2.5 (Problema of another version with @ControllerAdvice used in public class GlobalExceptionHandler )
 - Spring Web
 - Spring Data JPA
 - H2 In-Memory Database
@@ -154,7 +154,7 @@ To run tests:
 
 After running the app, access the API documentation at:
 ```
-http://localhost:8081/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html
 ```
 Swagger is powered by Springdoc OpenAPI 2.x.
 
@@ -162,10 +162,10 @@ Swagger is powered by Springdoc OpenAPI 2.x.
 ⚙️ How to Run
 Clone this repository:
 
-´´´
+```
 git clone https://github.com/your-username/product-api.git
 cd product-api
-´´´
+```
 
 Start the application:
 ```
