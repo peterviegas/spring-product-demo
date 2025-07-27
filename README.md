@@ -7,7 +7,7 @@ A simple RESTful API for product management, built with Spring Boot and Java 17.
 ## 🚀 Technologies Used
 
 - Java 17
-- Spring Boot 3.4.7 -> Changed for the version 3.2.5 (Problema of another version with @ControllerAdvice used in public class GlobalExceptionHandler )
+- initialized with Spring Boot 3.4.7 -> Changed for the version 3.2.5 (Problema of another version with @ControllerAdvice used in public class GlobalExceptionHandler )
 - Spring Web
 - Spring Data JPA
 - H2 In-Memory Database
